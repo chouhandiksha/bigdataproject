@@ -21,8 +21,7 @@ We propose to use the SafeGraph COVID-19 Response Social Distancing Metrics, The
 **Desription:** Due to the COVID-19 pandemic, people are currently engaging in social distancing. In order to understand what is actually occurring at a census block group level, SafeGraph is offering a temporary Social Distancing Metrics product.
 The SafeGraph COVID-19 Response Social Distancing Metrics schema can be viewed online at https://docs.safegraph.com/docs. The dataset is organized by Census Block and includes mobility statistics generated from cell phone data such as median distance travel from home, completely at-home device count, full-time work behavior, and many more mobility aggregate statistics. 
 
-**Data Source:** https://www.safegraph.com/covid-19-data-consortium Data Schema: https://docs.safegraph.com/docs 
-**Data Source:** https://docs.safegraph.com/docs/social-distancing-metrics
+**Data Source:** https://www.safegraph.com/covid-19-data-consortium Data Schema: https://docs.safegraph.com/docs  Data: https://docs.safegraph.com/docs/social-distancing-metrics
 
 **Includes:** COVID-19 Response Social Distancing MetricsDates: January 1, 2019, to present
 
