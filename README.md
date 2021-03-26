@@ -16,11 +16,12 @@ We will compare with visualizations the mobility index of census blocks with the
 
 We propose to use the SafeGraph COVID-19 Response Social Distancing Metrics, The SafeGraph Demographic American Survey Census Data, and The New York Times COVID-19 Data. We have verified all three datasets are available to researchers, secured access to, and downloaded the datasets.
 
-### SafeGraph Data
+### SafeGraph Social Distancing Data
 
-**Desription:** The SafeGraph COVID-19 Response Social Distancing Metrics schema can be viewed online at https://docs.safegraph.com/docs. The dataset is organized by Census Block and includes mobility statistics generated from cell phone data such as median distance travel from home, completely at-home device count, full-time work behavior, and many more mobility aggregate statistics. 
+**Desription:** Due to the COVID-19 pandemic, people are currently engaging in social distancing. In order to understand what is actually occurring at a census block group level, SafeGraph is offering a temporary Social Distancing Metrics product.
+The SafeGraph COVID-19 Response Social Distancing Metrics schema can be viewed online at https://docs.safegraph.com/docs. The dataset is organized by Census Block and includes mobility statistics generated from cell phone data such as median distance travel from home, completely at-home device count, full-time work behavior, and many more mobility aggregate statistics. 
 
-**Data Source:** https://www.safegraph.com/covid-19-data-consortium Data Schema: https://docs.safegraph.com/docs 
+**Data Source:** https://www.safegraph.com/covid-19-data-consortium Data Schema: https://docs.safegraph.com/docs  Data: https://docs.safegraph.com/docs/social-distancing-metrics
 
 **Includes:** COVID-19 Response Social Distancing MetricsDates: January 1, 2019, to present
 
@@ -55,3 +56,4 @@ We propose to use the SafeGraph COVID-19 Response Social Distancing Metrics, The
 The New York Times COVID-19 Data can be accessed online at https://github.com/nytimes/covid-19-data. The dataset contains reported daily COVID cases and deaths organized at the Country, State, and county levels. 
 
 **Data Source:** https://github.com/nytimes/covid-19-data
+
