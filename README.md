@@ -24,63 +24,63 @@ You can read the paper [here](paper.pdf).
 
 ## Notebooks
 
-There are as series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab.
+There are as series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file.
 
 * **New York Times COVID-19 Data // Extraction and Cleaning:**
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
   
-    [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract and Clean Times COVID-19 Data.ipynb) 
+    [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
 * **SafeGraph Census Data // Extraction and Cleaning:**
   
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) 
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb)  
   
-    [Extract and Clean Chicago Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract and Clean Chicago Census Data.ipynb) 
+    [Extract and Clean Chicago Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
   
-    [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract and Clean LA Census Data.ipynb) 
+    [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) 
   
-    [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract and Clean New York Census Data.ipynb)  
+    [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
 * **SafeGraph Social Distancing Dataset // Extraction:**
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb)  
   
-    [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract Chicago from Social Distancing.ipynb) 
+    [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb)  
   
-    [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract LA from Social Distancing.ipynb) 
+    [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb)  
   
-    [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract New York from Social Distancing.ipynb) 
+    [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) 
 * **SafeGraph Social Distancing Dataset // Cleaning:** 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean CH 2019 Social Distancing Dataset.ipynb) 
+    [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean CH 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean CH 2020 Social Distancing Dataset.ipynb) 
+    [Clean CH 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean LA 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean LA 2019 Social Distancing Dataset.ipynb)  
+    [Clean LA 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb)  
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean LA 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean LA 2020 Social Distancing Dataset.ipynb) 
+    [Clean LA 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean NY 2019 Social Distancing Dataset.ipynb) 
+    [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
   
-    [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean NY 2020 Social Distancing Dataset.ipynb) 
+    [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
 
 
 
