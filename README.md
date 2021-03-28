@@ -2,6 +2,54 @@
 
 
 
+## Introduction
+
+
+
+
+
+## Related Work
+
+
+
+## Data Sources
+
+
+
+## Data Acquisition
+
+
+
+### New York Times COVID-19 Data
+
+
+
+### SafeGraph Social Distancing Metrics and Census Block Group Data
+
+
+
+## Data Extraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ARCHIVE
+
+
+
+
+
 ## Project Description
 
 Many recent papers, including [Mobility network models of COVID-19, explain inequities and inform reopening](https://www.nature.com/articles/s41586-020-2923-3.epdf?sharing_token=c2VoryoYtQWd97ZdgEeRENRgN0jAjWel9jnR3ZoTv0P4QCkIKJMffNLo7c2z6ZZTYnGvAvX3fI35Ev4XiT4qy_Aw6981p_PWN2cUGQp-Db0e94Jx4cKJQKn89MbI01LV-5MeKLdkAFZjD7pS4mC45svhw8DcXn1DInTY6nWUQ50%3D) and [*Coronavirus infections and deaths by poverty status: The effects of social distancing*](https://pubmed.ncbi.nlm.nih.gov/33362321/) have established an essential link between mobility and COVID-19 infection rates and deaths. 
