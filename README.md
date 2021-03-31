@@ -220,7 +220,17 @@ SafeGraph provides a download of the 2016 American Community Survey (ACS) 5-year
 
 To better make comparisons between CBGs we calculated the white only and poverty percentages for each CBG from the given population values. The CBG white only percentage is calculated using the standard formula $\frac{w}{t}\cdot 100$ where $w$ is the white only population and $t$ is the total population. The CBG percentage in poverty is calculated by $(a+b)/d*100$ where $a+b$ is the total population with income below the poverty level and $d$ is the total population for whom the poverty status is determined.
 
+#### Chicago Metropolitan Area Demographic Data
 
+![Figures-chicago](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-chicago.png)
+
+#### Los Angeles Metropolitan Area Demographic Data
+
+![Figures-LA](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-LA.png)
+
+#### New York Metropolitan Area Demographic Data
+
+![Figures-NY](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-NY.png)
 
 ### SafeGraph Social Distancing Metrics
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
