@@ -33,15 +33,15 @@ The SafeGraph and NYTimes COVID data includes information on counties outside th
 
 We also provide jupyter notebooks for each step of the extraction process, allowing complete computational reproducibility. The NYTimes COVID data extraction notebook is [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). The SafeGraph Census data extraction notebooks are [here](####safegraph-census-data-//-extraction-and-cleaning:). The SafeGraph Social Distancing data extraction notebooks are [here](####safegraph-social-distancing-dataset-//-extraction:). 
 
-A word of warning, both Google Colab and Google Drive enforce API call quotas. If you receive an OS IO error you have likely reached your quota on API calls. In our testing we have always found closing all notebooks and letting 24 hours pass was sufficient to reset the Google Drive and Google Colab API quotas. Once the API quotas are reset we have always able to run the notebooks successfully. Alternatively, you can download the data and code to run on your own machine. All code has been tested on a MacBook Pro with a 2.6 GHz Quad-Core Intel Core i7 with 16 GB of memory.
+A word of warning, both Google Colab and Google Drive enforce API call quotas. If you receive an OS IO error you have likely reached your quota on API calls. In our testing we have always found closing all notebooks and letting 24 hours pass was sufficient to reset the Google Drive and Google Colab API quotas. Once the API quotas are reset we have always been able to run the notebooks successfully. Alternatively, you can download the data and code to run on your own machine. All code has been tested on a MacBook Pro with a 2.6 GHz Quad-Core Intel Core i7 with 16 GB of memory.
 
 
 
 ### Step 3 // Data Cleaning and Quality Verification
 
-Once you have extracted the needed data we are ready to verifiy the data is clean. Fortunatly the data sources we are using are of a high quality. So in our case the data cleaning process if more of a data quality verification process. You can read about all the data verification steps we cary out in the [Data Cleaning](##data-cleaning) section below. 
+Once you have extracted the needed data we are ready to verifiy the data is clean. Fortunately the data sources we are using are of a high quality. So in our case the data cleaning process if more of a data quality verification process. You can read about all the data verification steps we cary out in the [Data Cleaning](##data-cleaning) section below. 
 
-For simplicity sake the NYTimes COVID cleaning steps are in a single notebook with the extraction steps [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). Also, for simplicity the SafeGraph Census data cleaning notebooks are also combined with the extraction notebooks [here](####safegraph-census-data-//-extraction-and-cleaning:). 
+For simplicity sake, the NYTimes COVID cleaning steps are in a single notebook with the extraction steps [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). Also, for simplicity the SafeGraph Census data cleaning notebooks are also combined with the extraction notebooks [here](####safegraph-census-data-//-extraction-and-cleaning:). 
 
 Finally, you can find all of the SafeGraph Social Distancing notebooks [here](####safegraph-social-distancing-dataset-//-cleaning:). The SafeGraph Social Distancing set cleaning notebooks are not combined with the cleaning notebooks due to the large size of the dataset. So be sure to run the SafeGraph Social Distancing extraction notebooks from the above step 2 first. The SafeGraph Social Distancing Cleaning notebooks are broken up by city and year. 
 
@@ -49,7 +49,7 @@ Finally, you can find all of the SafeGraph Social Distancing notebooks [here](##
 
 ## Notebooks
 
-There are as series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file.
+There are a series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file.
 
 #### New York Times COVID-19 Data // Extraction and Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
@@ -143,7 +143,7 @@ The New York Times COVID-19 data can easily be downloaded directly from the Gith
 **Attributes:** 
 
 * Number of devices 
-* Median distance traveled from home
+* Median distance travelled from home
 * Completely home device count
 * Median home-dwelling time
 * Part-time work behavior
