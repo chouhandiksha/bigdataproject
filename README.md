@@ -220,17 +220,6 @@ SafeGraph provides a download of the 2016 American Community Survey (ACS) 5-year
 
 To better make comparisons between CBGs we calculated the white only and poverty percentages for each CBG from the given population values. The CBG white only percentage is calculated using the standard formula $\frac{w}{t}\cdot 100$ where $w$ is the white only population and $t$ is the total population. The CBG percentage in poverty is calculated by $(a+b)/d*100$ where $a+b$ is the total population with income below the poverty level and $d$ is the total population for whom the poverty status is determined.
 
-#### Chicago Metropolitan Area Demographic Data
-
-![Figures-chicago](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-chicago.png)
-
-#### Los Angeles Metropolitan Area Demographic Data
-
-![Figures-LA](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-LA.png)
-
-#### New York Metropolitan Area Demographic Data
-
-![Figures-NY](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-NY.png)
 
 ### SafeGraph Social Distancing Metrics
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
@@ -247,8 +236,6 @@ We looped through all the files in the data set reading them into memory and kee
 In addition to filtering the metro area rows, we have calculated several critical percentage values: the percentage of devices exhibiting part-time work behavior, percentage of devices exhibiting full-time work behavior, and percentage of devices exhibiting completely home status. Each of these percentages was taken using $b/d*100$ where $b$ is the population exhibiting the behavior in the CBG and $d$ is the total number of devices in the CBG.
 
 Finally, for each of these three percentages we have also calculated the normalized value by using $(v-\mu)/\sigma$ where $v$ is the value to normalize, $\mu$ is the mean, and $\sigma$ is the standard deviation.
-
-
 
 ## Data Cleaning
 
@@ -281,28 +268,59 @@ In order to clean the ACS data we have used Python, Pandas, and OpenRefine to ta
 * Using Pandas `.isna` function we verified there are no empty, NaN, or Null entries in any of the Social Distancing CSV files.
 
 
+#### Chicago Metropolitan Area Demographic Data
+
+![Figures-chicago](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-chicago.png)
+
+#### Los Angeles Metropolitan Area Demographic Data
+
+![Figures-LA](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-LA.png)
+
+#### New York Metropolitan Area Demographic Data
+
+![Figures-NY](https://github.com/chouhandiksha/bigdataproject/raw/main/media/dem/Figures-NY.png)
+
 
 ### SafeGraph Social Distancing Metrics
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb) [Clean LA 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb)  
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) [Clean LA 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
 In order to clean Social Distancing data we have used Python, Pandas, and OpenRefine to take the following steps:
-
 * OpenRefine we have checked for duplicate CBG on a subset of the hundreds of csv files. We found no duplicates in any files we checked.
 * Using Pandas we checked the minimum and maximum date values to ensure all the dates fall within the expected time frame. We found no values outside the expected time frame for all Social Distancing CSV files.
 * Using the Pandas max and min function we checked that all the percentage values fall within the expected range for all percentage columns. We found no values outside the expected range for all Social Distancing CSV files. 
 * Using the Pandas max and min function we checked that all integer data types fall within the expected range, which includes no negative values. We found no values outside the expected range for all Social Distancing CSV files.
 * Using Pandas `.isna` function we verified there are no empty, NaN, or Null entries in any of the Social Distancing CSV files.
 * For each city we visualized the mean daily and mean monthly values for all three percentage values **percentage\_completely\_home**, **percentage\_part\_time\_work**, and **percentage\_full\_time\_work** in both 2019 and 2020. All three cities show an increase in completely home individuals during 2020. There is also a visible decrease in part-time and full-time work behaviour in 2020. Given the documented decrease in mobility during 2020 these are the trends we expect to see. 
-  
+
+
+
+#### Chicago Metropolitan Area Social Distancing
+
+![ch-monthly-2019](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/ch-monthly-2019.png)
+
+![ch-monthly-2020](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/ch-monthly-2020.png)
+
+
+
+#### Los Angeles Metropolitan Area Social Distancing
+
+![la-monthly-2019](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/la-monthly-2019.png)
+
+![la-monthly-2020](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/la-monthly-2020.png)
+
+
+
+#### New York Metropolitan Area Social Distancing
+
+![ny-monthly-2019](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/ny-monthly-2019.png)
+
+![ny-monthly-2020](https://github.com/chouhandiksha/bigdataproject/raw/main/media/social-dist/ny-monthly-2020.png)
+
+
 
 ## Citations and Bibliographies
 
