@@ -10,15 +10,40 @@
 
 
 
-**Abstract**
+
+## Abstract
 
 We propose to study the relative mobility patterns of different demographic groups in 2019 and 2020. The SafeGraph Social Distancing Data allows us to observe daily behaviors such as full-time work, part-time work, and full-time stay at home generated from mobile phone records. The daily statistics are aggregated by Census Block Group (CBG). Also, CBG demographic data is available from the American Community Survey (2016) 5-year estimate. Our study focuses on the metropolitan areas of New York, Los Angeles, and Chicago. We will compare the mobility of Census Block Groups with high, mean, and low percentages of poverty. In addition, we will compare the mobility of Census Block Groups with high, mean, and low percentages of minority populations. By analyzing the mobility behaviour we hope to better visualize and understand who has been able to effectively decrease their mobility. Understanding who has not been able to decrease their mobility can help us understand who is most at risk and who is most in need of assistance to reduce their exposure to COVID-19. 
 
+You can read the full paper [here](paper.pdf).
 
 
-## Paper
 
-You can read the paper [here](paper.pdf).
+## Computational Reproducibility Instructions
+
+### Step 1 // Get the Data
+
+In this repository we provide computational reproducibility for our findings. Detailed instructions on how to secure the same raw input data are provided below in the [Data Sources](#data-sources) and [Data Acquisition](#data-acquisition) sections. We have also prepared a shared private Google Drive to be used by the research team, TAs, and professor Freire. Please reach out to the research team if you do not have the login credentials. While all data used is available for academic researchers to use, the SafeGraph data requires an agreement that we do not make the data public ourselves.  
+
+
+
+### Step 2 // Extract the Needed Rows And Columns
+
+The SafeGraph and NYTimes COVID data includes information on counties outside the 3 metropolitan areas of New York, Los Angeles, and Chicago. So the first step is to extract just the rows for our three cities. Also, we needed to select just the relevant subset of columns from each dataset. Detailed instructions on the process are provided in the [Data Extraction](#data-extraction) section below. 
+
+We also provide jupyter notebooks for each step of the extraction process, allowing complete computational reproducibility. The NYTimes COVID data extraction notebook is [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). The SafeGraph Census data extraction notebooks are [here](####safegraph-census-data-//-extraction-and-cleaning:). The SafeGraph Social Distancing data extraction notebooks are [here](####safegraph-social-distancing-dataset-//-extraction:). 
+
+A word of warning, both Google Colab and Google Drive enforce API call quotas. If you receive an OS IO error you have likely reached your quota on API calls. In our testing we have always found closing all notebooks and letting 24 hours pass was sufficient to reset the Google Drive and Google Colab API quotas. Once the API quotas are reset we have always able to run the notebooks successfully. Alternatively, you can download the data and code to run on your own machine. All code has been tested on a MacBook Pro with a 2.6 GHz Quad-Core Intel Core i7 with 16 GB of memory.
+
+
+
+### Step 3 // Data Cleaning and Quality Verification
+
+Once you have extracted the needed data we are ready to verifiy the data is clean. Fortunatly the data sources we are using are of a high quality. So in our case the data cleaning process if more of a data quality verification process. You can read about all the data verification steps we cary out in the [Data Cleaning](##data-cleaning) section below. 
+
+For simplicity sake the NYTimes COVID cleaning steps are in a single notebook with the extraction steps [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). Also, for simplicity the SafeGraph Census data cleaning notebooks are also combined with the extraction notebooks [here](####safegraph-census-data-//-extraction-and-cleaning:). 
+
+Finally, you can find all of the SafeGraph Social Distancing notebooks [here](####safegraph-social-distancing-dataset-//-cleaning:). The SafeGraph Social Distancing set cleaning notebooks are not combined with the cleaning notebooks due to the large size of the dataset. So be sure to run the SafeGraph Social Distancing extraction notebooks from the above step 2 first. The SafeGraph Social Distancing Cleaning notebooks are broken up by city and year. 
 
 
 
@@ -26,21 +51,21 @@ You can read the paper [here](paper.pdf).
 
 There are as series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file.
 
-* **New York Times COVID-19 Data // Extraction and Cleaning:**
+#### New York Times COVID-19 Data // Extraction and Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
-* **SafeGraph Census Data // Extraction and Cleaning:**
+#### SafeGraph Census Data // Extraction and Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) [Extract and Clean Chicago Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
-* **SafeGraph Social Distancing Dataset // Extraction:**
+#### SafeGraph Social Distancing Dataset // Extraction:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) 
-* **SafeGraph Social Distancing Dataset // Cleaning:** 
+#### SafeGraph Social Distancing Dataset // Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) 
@@ -169,6 +194,7 @@ A FIPS code is a number that uniquely identify a specific geographic area. Each 
 
 
 ### New York Times COVID-19 Data
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
 
 The New York Times COVID-19 file us-counties.csv has a FIPS column. After loading the file into a dataframe using Pandas we filter out just the rows with FIPS matching the counties in the metro areas. The result allowed us to get all the relevant row for the counties of Los Angeles and Chicago. 
 
@@ -177,6 +203,11 @@ Filtering for the New York FIPS counties returned no rows. Upon investigation we
 
 
 ### SafeGraph Census Block Group Data
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) [Extract and Clean Chicago Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) 
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
 
 SafeGraph provides a download of the 2016 American Community Survey (ACS) 5-year estimate on the Census Block Group level. We where able to filter out just the counties of the New York, Los Angeles, and Chicago Metro areas from the dataset one CSV file at a time using the FIPS code. We simply filter out CBGs where the first five digits of the CBG FIPS code matches a county from one of our 3 metro areas. Each row includes a Census Block Group that the row attributes describe. There are so many attributes in the ACS that the data is broken up into separate CSV files. The name of the file tells you want attributes are included in the file. Inside each file there is one row for each CBG. 
 
@@ -192,7 +223,11 @@ To better make comparisons between CBGs we calculated the white only and poverty
 
 
 ### SafeGraph Social Distancing Metrics
-
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) 
 The SafeGraph Social Distancing Metrics data is downloaded from AWS S3 storage to a local directory. The file structure provides the labels for the many separate gzip csv files. The folder structure pattern is: **YYYY/MM/DD.gz**. For instance, we have 12 folders representing each month i.e. from 01 to 12 in the “2019” folder, and in each of the folders a zipped file representing each day of the month were present. This was massive data that took us a significant amount of time to download.
 
 There is one file for each day of 2019 and 2020. There are also daily files for the first few months of 2021. The data set is still being updated every day with about a 1 week lag time between when data is captured and when it is added to the data set. 
@@ -210,7 +245,7 @@ Finally, for each of these three percentages we have also calculated the normali
 
 
 ### New York Times COVID-19 Data
-
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
 In order to clean the data we have used Python, Pandas, and OpenRefine to take the following steps:
 
 * Verify the dates fall between January 24th, 2020 and March 18th, 2021 using Pandas min and max function.
@@ -222,7 +257,11 @@ In order to clean the data we have used Python, Pandas, and OpenRefine to take t
 
 
 ### SafeGraph Census Block Group Data
-
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) [Extract and Clean Chicago Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Chicago%20Census%20Data.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
 In order to clean the ACS data we have used Python, Pandas, and OpenRefine to take the following steps:
 
 * We have checked that each CBG is unique and is not duplicated.
@@ -234,7 +273,17 @@ In order to clean the ACS data we have used Python, Pandas, and OpenRefine to ta
 
 
 ### SafeGraph Social Distancing Metrics
-
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202020%20Social%20Distancing%20Dataset.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb) [Clean LA 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202019%20Social%20Distancing%20Dataset.ipynb)  
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) [Clean LA 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
+  
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
 In order to clean Social Distancing data we have used Python, Pandas, and OpenRefine to take the following steps:
 
 * OpenRefine we have checked for duplicate CBG on a subset of the hundreds of csv files. We found no duplicates in any files we checked.
