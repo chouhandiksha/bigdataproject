@@ -212,13 +212,18 @@ Filtering for the New York FIPS counties returned no rows. Upon investigation we
 SafeGraph provides a download of the 2016 American Community Survey (ACS) 5-year estimate on the Census Block Group level. We where able to filter out just the counties of the New York, Los Angeles, and Chicago Metro areas from the dataset one CSV file at a time using the FIPS code. We simply filter out CBGs where the first five digits of the CBG FIPS code matches a county from one of our 3 metro areas. Each row includes a Census Block Group that the row attributes describe. There are so many attributes in the ACS that the data is broken up into separate CSV files. The name of the file tells you want attributes are included in the file. Inside each file there is one row for each CBG. 
 
 **We have extracted the following columns for all CBG in the three metro areas:** 
+
 **Column B01003e1:** the total estimate population
+
 **Column B02001e2:** the white only estimated population
+
 **Column C17002e1:** the total population for whom poverty status is determined
+
 **Column C17002e2:** the population for whom the ratio of income to poverty level in the past 12 month is under 0.5 from the population for whom poverty status is determined
+
 **Column C17002e3:** the population for whom the ratio of income to poverty level in the past 12 months is between 0.5 to 0.99 inclusive from the population for whom poverty status is determined
 
-To better make comparisons between CBGs we calculated the white only and poverty percentages for each CBG from the given population values. The CBG white only percentage is calculated using the standard formula $\frac{w}{t}\cdot 100$ where $w$ is the white only population and $t$ is the total population. The CBG percentage in poverty is calculated by $(a+b)/d*100$ where $a+b$ is the total population with income below the poverty level and $d$ is the total population for whom the poverty status is determined.
+To better make comparisons between CBGs we calculated the white only and poverty percentages for each CBG from the given population values. The CBG white only percentage is calculated using the standard formula ![eq](https://latex.codecogs.com/svg.latex?%5Cfrac%7Bw%7D%7Bt%7D%5Ccdot%20100) where ![eq](https://latex.codecogs.com/svg.latex?w) is the white only population and ![eq](https://latex.codecogs.com/svg.latex?t) is the total population. The CBG percentage in poverty is calculated by ![eq](https://latex.codecogs.com/svg.latex?%5Cfrac%7Ba&plus;b%7D%7Bd%7D%20%5Ccdot%20100) where ![eq](https://latex.codecogs.com/svg.latex?%28a&plus;b%29) is the total population with income below the poverty level and ![eq](https://latex.codecogs.com/svg.latex?d) is the total population for whom the poverty status is determined.
 
 
 ### SafeGraph Social Distancing Metrics
@@ -233,9 +238,9 @@ There is one file for each day of 2019 and 2020. There are also daily files for 
 
 We looped through all the files in the data set reading them into memory and keeping just the CBG rows from the 3 metro areas using the FIPS code column. For convenience once selected we save the filtered rows for each day to a csv file. Our new files follow a different format. The name of the file gives the year, month, and date by using the format **YYY-MM-DD-social-distancing.csv** and are all stored in a single directory for the entire year. For analysis we just read any needed daily data into memory by looping through the new filtered data files. 
 
-In addition to filtering the metro area rows, we have calculated several critical percentage values: the percentage of devices exhibiting part-time work behavior, percentage of devices exhibiting full-time work behavior, and percentage of devices exhibiting completely home status. Each of these percentages was taken using $b/d*100$ where $b$ is the population exhibiting the behavior in the CBG and $d$ is the total number of devices in the CBG.
+In addition to filtering the metro area rows, we have calculated several critical percentage values: the percentage of devices exhibiting part-time work behavior, percentage of devices exhibiting full-time work behavior, and percentage of devices exhibiting completely home status. Each of these percentages was taken using ![eq](https://latex.codecogs.com/svg.latex?%5Cfrac%7Bb%7D%7Bd%7D%20%5Ccdot%20100) where ![eq](https://latex.codecogs.com/svg.latex?b) is the population exhibiting the behavior in the CBG and ![eq](https://latex.codecogs.com/svg.latex?d) is the total number of devices in the CBG.
 
-Finally, for each of these three percentages we have also calculated the normalized value by using $(v-\mu)/\sigma$ where $v$ is the value to normalize, $\mu$ is the mean, and $\sigma$ is the standard deviation.
+Finally, for each of these three percentages we have also calculated the normalized value by using ![eq](https://latex.codecogs.com/svg.latex?%5Cfrac%7Bv-%5Cmu%7D%7B%5Csigma%7D) where ![eq](https://latex.codecogs.com/svg.latex?v) is the value to normalize, ![eq](https://latex.codecogs.com/svg.latex?%5Cmu) is the mean, and ![eq](https://latex.codecogs.com/svg.latex?%5Csigma) is the standard deviation.
 
 ## Data Cleaning
 
@@ -243,7 +248,8 @@ Finally, for each of these three percentages we have also calculated the normali
 
 ### New York Times COVID-19 Data
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
-In order to clean the data we have used Python, Pandas, and OpenRefine to take the following steps:
+
+**In order to clean the data we have used Python, Pandas, and OpenRefine to take the following steps:**
 
 * Verify the dates fall between January 24th, 2020 and March 18th, 2021 using Pandas min and max function.
 * We have verified the extracted rows only include the desired rows from the 3 metro areas using Pandas.
@@ -259,7 +265,8 @@ In order to clean the data we have used Python, Pandas, and OpenRefine to take t
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
-In order to clean the ACS data we have used Python, Pandas, and OpenRefine to take the following steps:
+
+**In order to clean the ACS data we have used Python, Pandas, and OpenRefine to take the following steps:**
 
 * We have checked that each CBG is unique and is not duplicated.
 * We have checked to make sure all percentages fall within the valid range from zero to a hundred using the Pandas min and max function.
@@ -288,7 +295,9 @@ In order to clean the ACS data we have used Python, Pandas, and OpenRefine to ta
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) [Clean LA 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20LA%202020%20Social%20Distancing%20Dataset.ipynb) 
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
-In order to clean Social Distancing data we have used Python, Pandas, and OpenRefine to take the following steps:
+
+**In order to clean Social Distancing data we have used Python, Pandas, and OpenRefine to take the following steps:**
+
 * OpenRefine we have checked for duplicate CBG on a subset of the hundreds of csv files. We found no duplicates in any files we checked.
 * Using Pandas we checked the minimum and maximum date values to ensure all the dates fall within the expected time frame. We found no values outside the expected time frame for all Social Distancing CSV files.
 * Using the Pandas max and min function we checked that all the percentage values fall within the expected range for all percentage columns. We found no values outside the expected range for all Social Distancing CSV files. 
