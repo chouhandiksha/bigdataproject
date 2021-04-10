@@ -1918,16 +1918,16 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "i37M8NVEeBvC",
-        "outputId": "1741d851-3236-420e-e69b-1a5ccd0703ca",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 516
-        }
+        },
+        "id": "i37M8NVEeBvC",
+        "outputId": "e39382ec-98f2-4371-e9a5-869d5b3184a2"
       },
       "source": [
         "#\n",
-        "alt.Chart(result_mean_df).mark_bar().encode(\n",
+        "alt.Chart(result_mean_df).mark_bar(size=30).encode(\n",
         "    alt.X('poverty_percentage:N'),\n",
         "    alt.Y('mean_completely_home_percentage'),\n",
         "    color = alt.Color('color',scale=None),\n",
@@ -1935,7 +1935,7 @@
         "             alt.Tooltip('mean_completely_home_percentage')]\n",
         ").properties(width=400, height=400).interactive()"
       ],
-      "execution_count": 41,
+      "execution_count": 43,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1945,12 +1945,12 @@
             ],
             "text/html": [
               "\n",
-              "<div id=\"altair-viz-edca0a3b88ab4778babd6092a9d7f727\"></div>\n",
+              "<div id=\"altair-viz-01eb07de0fd54548b4d4cbb94440fefc\"></div>\n",
               "<script type=\"text/javascript\">\n",
               "  (function(spec, embedOpt){\n",
               "    let outputDiv = document.currentScript.previousElementSibling;\n",
-              "    if (outputDiv.id !== \"altair-viz-edca0a3b88ab4778babd6092a9d7f727\") {\n",
-              "      outputDiv = document.getElementById(\"altair-viz-edca0a3b88ab4778babd6092a9d7f727\");\n",
+              "    if (outputDiv.id !== \"altair-viz-01eb07de0fd54548b4d4cbb94440fefc\") {\n",
+              "      outputDiv = document.getElementById(\"altair-viz-01eb07de0fd54548b4d4cbb94440fefc\");\n",
               "    }\n",
               "    const paths = {\n",
               "      \"vega\": \"https://cdn.jsdelivr.net/npm//vega@5?noext\",\n",
@@ -1992,19 +1992,19 @@
               "        .catch(showError)\n",
               "        .then(() => displayChart(vegaEmbed));\n",
               "    }\n",
-              "  })({\"config\": {\"view\": {\"continuousWidth\": 400, \"continuousHeight\": 300}}, \"data\": {\"name\": \"data-5659f0c6b55400f8c2d8e5232f6ab237\"}, \"mark\": \"bar\", \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"color\", \"scale\": null}, \"tooltip\": [{\"type\": \"nominal\", \"field\": \"poverty_percentage\"}, {\"type\": \"quantitative\", \"field\": \"mean_completely_home_percentage\"}], \"x\": {\"type\": \"nominal\", \"field\": \"poverty_percentage\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"mean_completely_home_percentage\"}}, \"height\": 400, \"selection\": {\"selector005\": {\"type\": \"interval\", \"bind\": \"scales\", \"encodings\": [\"x\", \"y\"]}}, \"width\": 400, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-5659f0c6b55400f8c2d8e5232f6ab237\": [{\"poverty_percentage\": \"(0, 20]\", \"mean_completely_home_percentage\": 32.19427510759007, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(20, 40]\", \"mean_completely_home_percentage\": 33.82818605206464, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(40, 60]\", \"mean_completely_home_percentage\": 34.047464488933045, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(60, 80]\", \"mean_completely_home_percentage\": 33.02959687658533, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(80, 100]\", \"mean_completely_home_percentage\": 25.79995730968602, \"color\": \"#ff4833\"}]}}, {\"mode\": \"vega-lite\"});\n",
+              "  })({\"config\": {\"view\": {\"continuousWidth\": 400, \"continuousHeight\": 300}}, \"data\": {\"name\": \"data-5659f0c6b55400f8c2d8e5232f6ab237\"}, \"mark\": {\"type\": \"bar\", \"size\": 30}, \"encoding\": {\"color\": {\"type\": \"nominal\", \"field\": \"color\", \"scale\": null}, \"tooltip\": [{\"type\": \"nominal\", \"field\": \"poverty_percentage\"}, {\"type\": \"quantitative\", \"field\": \"mean_completely_home_percentage\"}], \"x\": {\"type\": \"nominal\", \"field\": \"poverty_percentage\"}, \"y\": {\"type\": \"quantitative\", \"field\": \"mean_completely_home_percentage\"}}, \"height\": 400, \"selection\": {\"selector007\": {\"type\": \"interval\", \"bind\": \"scales\", \"encodings\": [\"x\", \"y\"]}}, \"width\": 400, \"$schema\": \"https://vega.github.io/schema/vega-lite/v4.8.1.json\", \"datasets\": {\"data-5659f0c6b55400f8c2d8e5232f6ab237\": [{\"poverty_percentage\": \"(0, 20]\", \"mean_completely_home_percentage\": 32.19427510759007, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(20, 40]\", \"mean_completely_home_percentage\": 33.82818605206464, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(40, 60]\", \"mean_completely_home_percentage\": 34.047464488933045, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(60, 80]\", \"mean_completely_home_percentage\": 33.02959687658533, \"color\": \"#45a0d1\"}, {\"poverty_percentage\": \"(80, 100]\", \"mean_completely_home_percentage\": 25.79995730968602, \"color\": \"#ff4833\"}]}}, {\"mode\": \"vega-lite\"});\n",
               "</script>"
             ]
           },
           "metadata": {
             "tags": []
           },
-          "execution_count": 41
+          "execution_count": 43
         },
         {
           "output_type": "stream",
           "text": [
-            "time: 23.3 ms (started: 2021-04-10 01:49:34 +00:00)\n"
+            "time: 21.3 ms (started: 2021-04-10 02:00:11 +00:00)\n"
           ],
           "name": "stdout"
         }
