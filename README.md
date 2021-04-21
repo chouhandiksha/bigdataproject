@@ -19,6 +19,82 @@ You can read the full paper [here](paper.pdf).
 
 
 
+## Priority Tasks
+
+
+
+* <strong style="color: red;">README // Populate Findings on README file</strong>
+* <strong style="color: red;">NOTEBOOKS // Clean up notebooks, notebook links, and data links used for findings. Test all final notebooks.</strong>
+* <strong style="color: red;">PAPER // Write paper with all findings. Format all visualizations and include with paper.</strong>
+
+
+
+## Findings (Priorities) 
+
+### Baseline Trends
+
+<strong style="color: red;">Urban Areas Graphs of General Trends Here.</strong>
+
+<ul >
+<li>Increase of at home behavior line graph.</li>
+<li>Decrease of at full time work behavior line graph.</li>
+<li>Decrease of at part time work behavior line graph.</li>
+<li>Decrease of distance traveled behavior line graph.</li>
+<li>Increase of at home behavior timeline.</li>
+<li>Decrease of at full time work behavior timeline.</li>
+<li>Decrease of at part time work behavior timeline.</li>
+<li>Decrease of distance traveled behavior timeline.</li>
+</ul>
+
+
+### Subgroup Trends
+
+<strong style="color: red;">Graphs of subgroup Trends Here.</strong>
+
+<ul >
+<li>Increase of at home behavior line graph.</li>
+<li>Decrease of at full time work behavior line graph.</li>
+<li>Decrease of at part time work behavior line graph.</li>
+<li>Decrease of distance traveled behavior line graph.</li>
+<li>Increase of at home behavior timeline.</li>
+<li>Decrease of at full time work behavior timeline.</li>
+<li>Decrease of at part time work behavior timeline.</li>
+<li>Decrease of distance traveled behavior timeline.</li>
+</ul>
+
+
+### Data Reliability
+
+<strong style="color: red;">Graphs pointing to bias in the data.</strong>
+<ul>
+<li>What is the sample size in each CBG? How can we visualize this? Is the sample size larger in CBGs where there are wealthier people? How can we visualize this?</li>
+</ul>
+
+
+## Findings (If we have time) 
+
+### Baseline Trends
+
+<strong style="color: red;">National Graphs of General Trends Here. Group by county. Visualize coorelation between mobility and infections/deaths.</strong>
+
+### Subgroup Trends
+
+<strong style="color: red;">National Graphs of subgroup Trends Here.</strong>
+
+<strong style="color: red;">Analyze minority group trends in relation to the average trends.</strong>
+
+### Data Reliability
+
+<strong style="color: red;">Graphs pointing to bias in the data.</strong>
+<ul>
+<li>Compare cell phone mobility data to subway and bus ridership data. Do the trends match up?</li>
+<li>Are there other ways to assess bias in the mobile data?</li>
+</ul>
+<strong style="color: red;">Get baseline average from 2019 from only months being compared instead of all 2019. Maybe check how different the two mean values are. Maybe check if the patters are more or less clear using this value. For instance is mobility higher or lower in March than from all of 2019?</strong>
+
+
+
+
 ## Computational Reproducibility Instructions
 
 ### Step 1 // Get the Data
@@ -94,7 +170,7 @@ Several months have passed since the publication of these articles. All the 2020
 
 
 
-In the \textit{Nature} article "Mobility network models of COVID-19 explain inequities and inform reopening"[1] Chang et al. produce a model that predicts the number of anticipated SARS-CoV-2 infections. The model takes as an input mobility data derived from mobile phone data. The model is tracks the predicted number of susceptible, exposed, infectious, and removed(SEIR) people anticipated to be in the population. The model is able to predict real case trajectories on held out data. The model correctly predicts higher infection rates among disadvantaged racial and socioeconomic groups solely as the result of differences in mobility. 
+In the *Nature* article "Mobility network models of COVID-19 explain inequities and inform reopening"[1] Chang et al. produce a model that predicts the number of anticipated SARS-CoV-2 infections. The model takes as an input mobility data derived from mobile phone data. The model is tracks the predicted number of susceptible, exposed, infectious, and removed(SEIR) people anticipated to be in the population. The model is able to predict real case trajectories on held out data. The model correctly predicts higher infection rates among disadvantaged racial and socioeconomic groups solely as the result of differences in mobility. 
 
 "Coronavirus infections and deaths by poverty status: The effects of social distancing"[2] have shown the highest initial number of cases are in both the wealthiest and poorest countries. However, there is a great difference between the wealthy and poor countries when stay at home policies are put in place. The wealthiest countries have been able to show much greater reductions in mobility. As a result the wealthiest countries are able to curb the infection rates more effectively than poorer countries.
 
