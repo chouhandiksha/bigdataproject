@@ -47,6 +47,27 @@ You can read the full paper [here](paper.pdf).
 </ul>
 
 
+
+
+#### 2020 Rolling 10 Day Average
+
+<table>
+<tr>
+<th>New York City</th>
+<th>Los Angeles</th>
+<th>Chicago</th>
+</tr>
+<tr>
+	<td><img src="media/findings/baseline/homework/ny.png"></td>
+  <td><img src="media/findings/baseline/homework/la.png"></td>
+  <td><img src="media/findings/baseline/homework/ch.png"></td>
+</tr>
+</table>
+
+
+
+
+
 ### Subgroup Trends
 
 <strong style="color: red;">Graphs of subgroup Trends Here.</strong>
