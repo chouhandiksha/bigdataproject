@@ -1,3 +1,5 @@
+
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -49,23 +51,637 @@ You can read the full paper [here](paper.pdf).
 
 
 
-#### 2020 Rolling 10 Day Average
+
 
 <table>
 <tr>
-<th>New York City</th>
-<th>Los Angeles</th>
-<th>Chicago</th>
+<th colspan="3">2020 Rolling 10 Day Average</th>
 </tr>
-<tr>
+<tr style="background-color:#FFFFFF">
 	<td><img src="media/findings/baseline/homework/ny.png"></td>
   <td><img src="media/findings/baseline/homework/la.png"></td>
   <td><img src="media/findings/baseline/homework/ch.png"></td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td><b>New York City</b></td>
+  <td><b>Los Angeles</b></td>
+  <td><b>Chicago</b></td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th colspan="3">2020 Rolling 10 Day Average 
+  Stay At Home Percentage Deviation from 2019 Mean</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td><img src="media/findings/baseline/stayathome/ny.png"></td>
+  <td><img src="media/findings/baseline/stayathome/la.png"></td>
+  <td><img src="media/findings/baseline/stayathome/ch.png"></td>
+</tr>
+  <tr>
+	<td><b>New York City</b></td>
+  <td><b>Los Angeles</b></td>
+  <td><b>Chicago</b></td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th colspan="7">Chicago Timeline // Thumbnails</th>
+</tr>
+<tr>
+<td colspan="7">First Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ch/2020-03-01.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-02.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-03.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-04.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-05.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-06.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-07.png"></td>
+</tr>
+<tr>
+<td colspan="7">Second Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ch/2020-03-08.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-09.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-10.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-11.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-12.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-13.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-14.png"></td>
+</tr>
+<tr>
+<td colspan="7">Third Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ch/2020-03-15.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-16.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-17.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-18.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-19.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-20.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-21.png"></td>
+</tr>
+<tr>
+<td colspan="7">Fourth Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ch/2020-03-22.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-23.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-24.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-25.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-26.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-27.png"></td>
+<td><img src="media/findings/baseline/time/home/ch/2020-03-28.png"></td>
 </tr>
 </table>
 
 
 
+
+
+<table>
+<tr>
+<th>Chicago Timeline</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Wednesday, March 11, 2020</b>
+      <ul>
+      <li>Typical pre-shutdown weekday with a high percentage of people not at home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-11.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Thursday, March 12, 2020</b>
+      <ul>
+      <li>Governor Pritzker issues order to shutdown all  public events with over 1,000 people in Illinois.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-12.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, Mar 13, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-13.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Saturday, Mar 14, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, Mar 15, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Monday, Mar 16, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Tuesday, Mar 17, 2020</b>
+      <ul>
+      <li>Governor Pritzker order to close Bars and Restaurants to dine in service takes effect.</li>
+      <li>Primary election is held despite the onset of the pandemic.</li>
+      <li>Mayor Lightfoot announces school closure.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Wednesday, Mar 18, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Thursday, Mar 19, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-19.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, Mar 20, 2020</b>
+      <ul>
+      <li>Governor Pritzker issues stay at home order fro entire state of Illinois..</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-20.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Saturday, Mar 21, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-21.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, Mar 22, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-22.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Monday, Mar 23, 2020</b>
+      <ul>
+      <li>A clear transformation has taken place in the behavior of the city that continues for many weeks. Despite being a weekday we see a relatively high percentage of the general propulation staying at home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ch/2020-03-23.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th colspan="7">New York City Timeline // Thumbnails</th>
+</tr>
+<tr>
+<td colspan="7">First Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ny/2020-03-01.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-02.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-03.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-04.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-05.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-06.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-07.png"></td>
+</tr>
+<tr>
+<td colspan="7">Second Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ny/2020-03-08.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-09.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-10.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-11.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-12.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-13.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-14.png"></td>
+</tr>
+<tr>
+<td colspan="7">Third Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ny/2020-03-15.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-16.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-17.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-18.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-19.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-20.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-21.png"></td>
+</tr>
+<tr>
+<td colspan="7">Fourth Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/ny/2020-03-22.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-23.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-24.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-25.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-26.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-27.png"></td>
+<td><img src="media/findings/baseline/time/home/ny/2020-03-28.png"></td>
+</tr>
+</table>
+
+
+
+
+<table>
+<tr>
+<th>New York Timeline</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, March 6, 2020</b>
+      <ul>
+      <li>Typical pre-shutdown busy weekday with a large percentage of the population not at home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-06.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, March 7, 2020</b>
+      <ul>
+      <li>Governor Cuomo declares a state of emergency.</li>
+      <li>No clear impact on the general population's behavior. Active weekend with a large percentage of the population not at home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-07.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Saturday, March 8, 2020</b>
+      <ul>
+      <li>NYC issues guidlines to avoid densely packed busses, subways, and trains..</li>
+      <li>No clear impact on the general population's behavior. Active weekend with a large percentage of the population not at home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-08.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, March 9, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-09.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Saturday, March 14, 2020</b>
+      <ul>
+      <li>First documented two COVID deaths in NYS.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, March 15, 2020</b>
+      <ul>
+      <li>CDC recommends no gatherings of 50+ in the United States.</li>
+      <li>Slightly higher percentage of people at home than a typical weekend. An early, clear sign of changing behavior in NYC.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Monday, March 16, 2020</b>
+      <ul>
+      <li>NYC public schools are closed.</li>
+      <li>Despite being a Monday large percentage of new yorkers stay home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Tuesday, March 17, 2020</b>
+      <ul>
+      <li>NYC bars and restaurants are allowed delivery only.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, March 22, 2020</b>
+      <ul>
+      <li>NYS pause probram begins. All non-essentail workers are ordered to stay home.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-22.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Monday, March 23, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/ny/2020-03-23.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th colspan="7">Los Angeles Metro Area Timeline // Thumbnails</th>
+</tr>
+<tr>
+<td colspan="7">First Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/la/2020-03-01.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-02.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-03.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-04.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-05.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-06.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-07.png"></td>
+</tr>
+<tr>
+<td colspan="7">Second Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/la/2020-03-08.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-09.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-10.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-11.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-12.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-13.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-14.png"></td>
+</tr>
+<tr>
+<td colspan="7">Third Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/la/2020-03-15.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-16.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-17.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-18.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-19.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-20.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-21.png"></td>
+</tr>
+<tr>
+<td colspan="7">Fourth Week of March 2020</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/baseline/time/home/la/2020-03-22.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-23.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-24.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-25.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-26.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-27.png"></td>
+<td><img src="media/findings/baseline/time/home/la/2020-03-28.png"></td>
+</tr>
+</table>
+
+
+
+
+<table>
+<tr>
+<th>Los Angeles Timeline</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Wednesday, March 11, 2020</b>
+      <ul>
+      <li>First person to die of the coronavirus in Los Angeles County is reported.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-11.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Thursday, March 12, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-12.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, March 13, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-13.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Saturday, March 14, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, March 15, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Monday, March 16, 2020</b>
+      <ul>
+      <li>LA county orders the closure of bars, gyms, and entertainment centers. Restaurants are restricted to just take-out or delivery service..</li>
+      <li>LAUSD schools close.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Tuesday, March 17, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Wednesday, March 18, 2020</b>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Thursday, March 19, 2020</b>
+      <ul>
+      <li>California Governor Gavin Newsome issues a statewide stay at home order.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-19.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Friday, March 20, 2020</b>
+      <ul>
+      <li>Mayor Eric Garcetti issues a safer at home health order stopping non-essential activities outside of residences in response to COVID-19.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-20.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Sunday, March 22, 2020</b>
+      <ul>
+      <li>President Donald Trump declares a major distaster in California and approves federal funds for the state to fight coronavirus.</li>
+      <li>The National Guard deployed in California.</li>
+      </ul>
+    </div>
+    <div>
+    <img src="media/findings/baseline/time/home/la/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+</tr>
+</table>
 
 
 ### Subgroup Trends
@@ -82,6 +698,26 @@ You can read the full paper [here](paper.pdf).
 <li>Decrease of at part time work behavior timeline.</li>
 <li>Decrease of distance traveled behavior timeline.</li>
 </ul>
+
+
+
+
+<table>
+<tr>
+<th colspan="3">Mean percentage staying home grouped by percentage of the population below the poverty line</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td><img src="media/findings/subgroups/poverhome/ny.png"></td>
+  <td><img src="media/findings/subgroups/poverhome/la.png"></td>
+  <td><img src="media/findings/subgroups/poverhome/ch.png"><img src="media/findings/subgroups/poverhome/ch-all.png"></td>
+</tr>
+  <tr>
+	<td><b>New York City</b></td>
+  <td><b>Los Angeles</b></td>
+  <td><b>Chicago</b></td>
+</tr>
+</table>
+
 
 
 ### Data Reliability
@@ -141,6 +777,16 @@ Once you have extracted the needed data we are ready to verifiy the data is clea
 For simplicity sake, the NYTimes COVID cleaning steps are in a single notebook with the extraction steps [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). Also, for simplicity the SafeGraph Census data cleaning notebooks are also combined with the extraction notebooks [here](####safegraph-census-data-//-extraction-and-cleaning:). 
 
 Finally, you can find all of the SafeGraph Social Distancing notebooks [here](####safegraph-social-distancing-dataset-//-cleaning:). The SafeGraph Social Distancing set cleaning notebooks are not combined with the cleaning notebooks due to the large size of the dataset. So be sure to run the SafeGraph Social Distancing extraction notebooks from the above step 2 first. The SafeGraph Social Distancing Cleaning notebooks are broken up by city and year. 
+
+
+
+## Notebooks to Clean
+
+* Notebooks with poverty and stay at home percentage
+  * bigdataproject/sketch/justin/sketch_spark_chicago.ipynb
+    * (same for LA and NY versions)
+
+
 
 
 
