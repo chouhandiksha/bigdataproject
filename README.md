@@ -707,9 +707,9 @@ You can read the full paper [here](paper.pdf).
 <th colspan="3">Mean percentage staying home grouped by percentage of the population below the poverty line</th>
 </tr>
 <tr style="background-color:#FFFFFF">
-	<td><img src="media/findings/subgroups/poverhome/ny.png"></td>
-  <td><img src="media/findings/subgroups/poverhome/la.png"></td>
-  <td><img src="media/findings/subgroups/poverhome/ch.png"><img src="media/findings/subgroups/poverhome/ch-all.png"></td>
+	<td><img src="media/findings/subgroups/phome/ny.png"><img src="media/findings/subgroups/phome/ny-all.png"></td>
+  <td><img src="media/findings/subgroups/phome/la.png"><img src="media/findings/subgroups/phome/la-all.png"></td>
+  <td><img src="media/findings/subgroups/phome/ch.png"><img src="media/findings/subgroups/phome/ch-all.png"></td>
 </tr>
   <tr>
 	<td><b>New York City</b></td>
@@ -717,6 +717,7 @@ You can read the full paper [here](paper.pdf).
   <td><b>Chicago</b></td>
 </tr>
 </table>
+
 
 
 
@@ -782,9 +783,7 @@ Finally, you can find all of the SafeGraph Social Distancing notebooks [here](##
 
 ## Notebooks to Clean
 
-* Notebooks with poverty and stay at home percentage
-  * bigdataproject/sketch/justin/sketch_spark_chicago.ipynb
-    * (same for LA and NY versions)
+* ??? Notebooks for all graphics missing from README ???
 
 
 
@@ -792,7 +791,7 @@ Finally, you can find all of the SafeGraph Social Distancing notebooks [here](##
 
 ## Notebooks
 
-There are a series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file.
+There are a series of notebooks used to extract, clean and visualize the data. The notebooks are organized by the dataset, city, and year.  Click on the Colab badge to open the notebook directly in Google Colab. Below each badge is the Github link where you can download the notebook file. The notebooks need to be run in the order listed here. Each notebook depends on the files output by many of the previous notebooks. 
 
 #### New York Times COVID-19 Data // Extraction and Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) [Extract and Clean Times COVID-19 Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20Times%20COVID-19%20Data.ipynb) 
@@ -802,12 +801,15 @@ There are a series of notebooks used to extract, clean and visualize the data. T
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) [Extract and Clean LA Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20LA%20Census%20Data.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb) [Extract and Clean New York Census Data.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20and%20Clean%20New%20York%20Census%20Data.ipynb)  
-#### SafeGraph Social Distancing Dataset // Extraction:
+#### SafeGraph Social Distancing Dataset // Extraction (Using Pandas):
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) [Extract Chicago from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) 
-  
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) 
+#### SafeGraph Social Distancing Dataset // Extraction (Using Spark):
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing%20Spark.ipynb) [Extract Chicago from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing%20Spark.ipynb) 
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing%20Spark.ipynb) [Extract LA from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing%20Spark.ipynb) 
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing%20Spark.ipynb) [Extract New York from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing%20Spark.ipynb) 
+
 #### SafeGraph Social Distancing Dataset // Cleaning:
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) [Clean CH 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20CH%202019%20Social%20Distancing%20Dataset.ipynb) 
   
@@ -820,6 +822,33 @@ There are a series of notebooks used to extract, clean and visualize the data. T
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2019 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202019%20Social%20Distancing%20Dataset.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) [Clean NY 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Clean%20NY%202020%20Social%20Distancing%20Dataset.ipynb) 
+
+#### SafeGraph Social Distancing Dataset // Analysis:
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Population%20Density.ipynb) [Analysis CH Population Density.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Population%20Density.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Population%20Density.ipynb) [Analysis LA Population Density.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Population%20Density.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Population%20Density.ipynb) [Analysis NY Population Density.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Population%20Density.ipynb) 
+
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Get%202019%20Social%20Distancing%20Stats.ipynb) [Analysis CH Get 2019 Social Distancing Stats.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Get%202019%20Social%20Distancing%20Stats.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Get%202019%20Social%20Distancing%20Stats.ipynb) [Analysis LA Get 2019 Social Distancing Stats.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Get%202019%20Social%20Distancing%20Stats.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Get%202019%20Social%20Distancing%20Stats.ipynb) [Analysis NY Get 2019 Social Distancing Stats.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Get%202019%20Social%20Distancing%20Stats.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) [Analysis CH Compare 2019 with 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) [Analysis NY Compare 2019 with 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) [Analysis LA Compare 2019 with 2020 Social Distancing Dataset.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20poverty%20and%20mobility.ipynb) [Analysis CH poverty and mobility.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20poverty%20and%20mobility.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20poverty%20and%20mobility.ipynb) [Analysis LA poverty and mobility.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20poverty%20and%20mobility.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20poverty%20and%20mobility.ipynb) [Analysis NY poverty and mobility.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20poverty%20and%20mobility.ipynb) 
 
 
 
@@ -975,6 +1004,13 @@ To better make comparisons between CBGs we calculated the white only and poverty
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) [Extract LA from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing.ipynb) 
   
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) [Extract New York from Social Distancing.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing%20Spark.ipynb) [Extract Chicago from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20Chicago%20from%20Social%20Distancing%20Spark.ipynb) 
+
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing%20Spark.ipynb) [Extract LA from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20LA%20from%20Social%20Distancing%20Spark.ipynb) 
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing%20Spark.ipynb) [Extract New York from Social Distancing Spark.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Extract%20New%20York%20from%20Social%20Distancing%20Spark.ipynb) 
+
 The SafeGraph Social Distancing Metrics data is downloaded from AWS S3 storage to a local directory. The file structure provides the labels for the many separate gzip csv files. The folder structure pattern is: **YYYY/MM/DD.gz**. For instance, we have 12 folders representing each month i.e. from 01 to 12 in the “2019” folder, and in each of the folders a zipped file representing each day of the month were present. This was massive data that took us a significant amount of time to download.
 
 There is one file for each day of 2019 and 2020. There are also daily files for the first few months of 2021. The data set is still being updated every day with about a 1 week lag time between when data is captured and when it is added to the data set. 
@@ -1016,6 +1052,26 @@ Finally, for each of these three percentages we have also calculated the normali
 * We have produced histograms for each attribute to verify the shape of the data and range of values are valid. 
 * We have visualized the CBG values on maps to give an intuition into the contents of the data and look for outliers.
 * Using Pandas `.isna` function we verified there are no empty, NaN, or Null entries in any of the Social Distancing CSV files.
+
+
+
+<table>
+<tr>
+<th colspan="3">Census Block Group Population Density</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td><img src="media/findings/baseline/density/ny.png"></td>
+  <td><img src="media/findings/baseline/density/la.png"></td>
+  <td><img src="media/findings/baseline/density/ch.png"></td>
+</tr>
+  <tr>
+	<td><b>New York City</b></td>
+  <td><b>Los Angeles</b></td>
+  <td><b>Chicago</b></td>
+</tr>
+</table>
+
+
 
 
 #### Chicago Metropolitan Area Demographic Data
