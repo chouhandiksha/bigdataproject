@@ -1,6 +1,7 @@
 
 
 
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -143,21 +144,43 @@ You can read the full paper [here](paper.pdf).
 </tr>
 </table>
 
+
+
 <table>
 <tr>
-<th> ANCHIT Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
+<th colspan="7"> ANCHIT Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
 </tr>
 <tr style="background-color:#FFFFFF">
-	<td>
+<td colspan="7" padding: 5px;>
     <div>
-    <b>Chicago</b>
+    	<b>Chicago</b>
     </div>
     <div>
      <img src="media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
     </div>
-  </td>
+ </td>
+ <tr style="background-color:#FFFFFF">
+<td colspan="7" padding: 5px;>
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/ny/ny_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
  </tr>
-</table>
+ <tr style="background-color:#FFFFFF">
+<td colspan="7" padding: 5px;>
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/la/la_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </tr>
+ </table>
  
 	    
 
