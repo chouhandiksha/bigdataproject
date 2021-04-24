@@ -1,5 +1,6 @@
 
 
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -142,7 +143,23 @@ You can read the full paper [here](paper.pdf).
 </tr>
 </table>
 
-
+<table>
+<tr>
+<th> ANCHIT Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td>
+    <div>
+    <b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/ch/2020-03-27.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+  </td>
+ </tr>
+</table>
+ 
+	    
 
 
 
