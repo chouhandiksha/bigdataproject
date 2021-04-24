@@ -153,7 +153,7 @@ You can read the full paper [here](paper.pdf).
     <b>Chicago</b>
     </div>
     <div>
-     <img src="media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png](https://github.com/chouhandiksha/bigdataproject/blob/main/media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png "ch_time_wealthy_poor_yearly.png")" style="display:block; margin-left: auto; margin-right: auto;">
+     <img src="media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
     </div>
   </td>
  </tr>
