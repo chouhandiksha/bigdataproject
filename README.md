@@ -2,6 +2,7 @@
 
 
 
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -885,6 +886,7 @@ There are a series of notebooks used to extract, clean and visualize the data. T
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20poverty%20and%20mobility.ipynb) [Analysis LA poverty and mobility.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20poverty%20and%20mobility.ipynb) 
 
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20poverty%20and%20mobility.ipynb) [Analysis NY poverty and mobility.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20poverty%20and%20mobility.ipynb) 
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/colab/notebooks/temporal-analysis/completely_home/analyse_CH_mobility_poverty_2020.ipynb) [ Analyse CH Compare Completely Home Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20CH%20Compare%20Completely%20Home%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
 
 
 
