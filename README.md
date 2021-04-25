@@ -311,6 +311,18 @@ You can read the full paper [here](paper.pdf).
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/CH_comp_home.png"></img></td>
 </tr>
+<tr>
+<td colspan = 7"> Full Time Work Percentage</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_full_time.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Part Time Work Percentage</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_part_time.png"></img></td>
+</tr>
 </table>
 
 <table>
