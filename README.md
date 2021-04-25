@@ -302,7 +302,16 @@ You can read the full paper [here](paper.pdf).
   </td>
 </tr>
 </table>
-
+<table>
+<tr>
+<th colspan="7">Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Chicago)</th>
+<tr>
+<td colspan = 7"> Completely Home Percentage</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img ="media/findings/subgroups/groups/CH_comp_home.png"</td>
+</tr>
+</table>
 
 <table>
 <tr>
