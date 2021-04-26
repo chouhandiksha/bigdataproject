@@ -993,6 +993,13 @@ There are a series of notebooks used to extract, clean and visualize the data. T
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Completely%20Home%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) [ Analyse LA Compare Completely Home Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Completely%20Home%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) [ Analyse LA Compare Full Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) [ Analyse LA Compare Part Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20LA%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Completely%20Home%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb
+) [ Analyse NY Compare Completely Home Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Compare%202019%20with%202020%20Social%20Distancing%20Dataset.ipynb) 
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) [ Analyse NY Compare Full Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
+*  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb
+) [ Analyse NY Compare Part Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
+
 
 
 
@@ -1311,6 +1318,7 @@ social-distancing-metrics
 [5] The New York Times. 2021. Coronavirus (COVID-19) Data in the United States.
 
 https://github.com/nytimes/covid-19-data
+
 
 
 
