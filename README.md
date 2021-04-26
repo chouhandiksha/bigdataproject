@@ -3,6 +3,7 @@
 
 
 
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -513,6 +514,84 @@ You can read the full paper [here](paper.pdf).
     <img src="media/findings/baseline/time/home/ny/2020-03-23.png" style="display:block; margin-left: auto; margin-right: auto;">
     </div>
   </td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th colspan="7">Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (New York)</th>
+<tr>
+<td colspan = 7"> Completely Home Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_comp_home_March.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Completely Home Percentage-April</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_comp_home_April.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Completely Home Percentage-July</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_comp_home_July.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Completely Home Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_comp_home_October.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Full Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_full_time_March.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Full Time Work Percentage-April</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_full_time_April.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Full Time Work Percentage-July</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_full_time_July.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Full Time Work Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_full_time_October.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Part Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_part_time_March.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Part Time Work Percentage-April</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_part_time_April.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Part Time Work Percentage-July</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_part_time_July.png"></img></td>
+</tr>
+<tr>
+<td colspan = 7"> Part Time Work Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/NY_part_time_October.png"></img></td>
 </tr>
 </table>
 
