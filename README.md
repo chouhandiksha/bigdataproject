@@ -1,9 +1,5 @@
 
 
-
-
-
-
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -25,35 +21,13 @@ You can read the full paper [here](paper.pdf).
 
 
 
-## Priority Tasks
-
-
-
-* <strong style="color: red;">README // Populate Findings on README file</strong>
-* <strong style="color: red;">NOTEBOOKS // Clean up notebooks, notebook links, and data links used for findings. Test all final notebooks.</strong>
-* <strong style="color: red;">PAPER // Write paper with all findings. Format all visualizations and include with paper.</strong>
-
-
-
 ## Findings (Priorities) 
 
-### Baseline Trends
-
-<strong style="color: red;">Urban Areas Graphs of General Trends Here.</strong>
-
-<ul >
-<li>Increase of at home behavior line graph.</li>
-<li>Decrease of at full time work behavior line graph.</li>
-<li>Decrease of at part time work behavior line graph.</li>
-<li>Decrease of distance traveled behavior line graph.</li>
-<li>Increase of at home behavior timeline.</li>
-<li>Decrease of at full time work behavior timeline.</li>
-<li>Decrease of at part time work behavior timeline.</li>
-<li>Decrease of distance traveled behavior timeline.</li>
-</ul>
 
 
+### Basline Trends 
 
+We see an unmistakable increase in the percentage of individuals staying at home in March of 2020. The average for all three city moves spikes up approximatly 20% in all three cities from the begining to the end of March. A drastic change in the number of people leaving home for full-time and part-time work occurs at the same time. 
 
 
 
@@ -74,6 +48,8 @@ You can read the full paper [here](paper.pdf).
 </table>
 
 
+
+
 <table>
 <tr>
 <th colspan="3">2020 Rolling 10 Day Average 
@@ -92,9 +68,72 @@ You can read the full paper [here](paper.pdf).
 </table>
 
 
+
 <table>
 <tr>
-<th colspan="7">Chicago Timeline // Thumbnails</th>
+<th colspan="3">Mean percentage staying home grouped by percentage of the population below the poverty line</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+	<td><img src="media/findings/subgroups/phome/ny.png"><img src="media/findings/subgroups/phome/ny-all.png"></td>
+  <td><img src="media/findings/subgroups/phome/la.png"><img src="media/findings/subgroups/phome/la-all.png"></td>
+  <td><img src="media/findings/subgroups/phome/ch.png"><img src="media/findings/subgroups/phome/ch-all.png"></td>
+</tr>
+  <tr>
+	<td><b>New York City</b></td>
+  <td><b>Los Angeles</b></td>
+  <td><b>Chicago</b></td>
+</tr>
+</table>
+
+
+
+<table>
+<tr>
+<th> Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
+    <div>
+    	<b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/ny/ny_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/findings/baseline/time/home/la/la_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </table>
+
+#### Chicago
+
+During the month of March we can see the majority of Census Group Blocks go from a below average number of people at home, signified by a dark red, to many more people than average staying at home, signified by a dark blue.
+
+
+
+<table>
+<tr>
+<th colspan="7"><div>
+  Chicago Timeline
+  </div></th>
 </tr>
 <tr>
 <td colspan="7">First Week of March 2020</td>
@@ -144,9 +183,15 @@ You can read the full paper [here](paper.pdf).
 <td><img src="media/findings/baseline/time/home/ch/2020-03-27.png"></td>
 <td><img src="media/findings/baseline/time/home/ch/2020-03-28.png"></td>
 </tr>
+<tr>
+<td colspan="7" style="background-color:#FFFFFF">
+  <div>
+    2020 stay at home percentage deviation from the 2019 mean
+  </div>
+<img src="media/findings/baseline/time/home/ch-key.png">
+</td>
+</tr>
 </table>
-
-​	    
 
 
 
@@ -154,21 +199,7 @@ You can read the full paper [here](paper.pdf).
 <tr>
 <th>Chicago Timeline</th>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Wednesday, March 11, 2020</b>
-      <ul>
-      <li>Typical pre-shutdown weekday with a high percentage of people not at home.</li>
-      </ul>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-11.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-</tr>
-<tr style="background-color:#FFFFFF">
+  <tr>
 	<td>
     <div>
     <b>Thursday, March 12, 2020</b>
@@ -176,52 +207,9 @@ You can read the full paper [here](paper.pdf).
       <li>Governor Pritzker issues order to shutdown all  public events with over 1,000 people in Illinois.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-12.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Friday, Mar 13, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-13.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Saturday, Mar 14, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Sunday, Mar 15, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Monday, Mar 16, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Tuesday, Mar 17, 2020</b>
@@ -231,104 +219,54 @@ You can read the full paper [here](paper.pdf).
       <li>Mayor Lightfoot announces school closure.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Wednesday, Mar 18, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Thursday, Mar 19, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-19.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Friday, Mar 20, 2020</b>
       <ul>
-      <li>Governor Pritzker issues stay at home order fro entire state of Illinois..</li>
+      <li>Governor Pritzker issues stay at home order fro entire state of Illinois.</li>
       </ul>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-20.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Saturday, Mar 21, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-21.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Sunday, Mar 22, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-22.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Monday, Mar 23, 2020</b>
-      <ul>
-      <li>A clear transformation has taken place in the behavior of the city that continues for many weeks. Despite being a weekday we see a relatively high percentage of the general propulation staying at home.</li>
-      </ul>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ch/2020-03-23.png" style="display:block; margin-left: auto; margin-right: auto;">
     </div>
   </td>
 </tr>
 </table>
+
+
+
+
 <table>
 <tr>
-<th colspan="7">Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Chicago)</th>
+<th>Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Chicago)</th>
 <tr>
-<td colspan = 7"> Completely Home Percentage</td>
+<td> Completely Home Percentage</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/CH_comp_home.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Full Time Work Percentage</td>
+<td> Full Time Work Percentage</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/CH_full_time.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Part Time Work Percentage</td>
+<td> Part Time Work Percentage</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/CH_part_time.png"></img></td>
 </tr>
 </table>
 
+
+#### New York Metro Area
+
+
+
 <table>
 <tr>
-<th colspan="7">New York City Timeline // Thumbnails</th>
+<th colspan="7">New York City Timeline</th>
 </tr>
 <tr>
 <td colspan="7">First Week of March 2020</td>
@@ -378,16 +316,25 @@ You can read the full paper [here](paper.pdf).
 <td><img src="media/findings/baseline/time/home/ny/2020-03-27.png"></td>
 <td><img src="media/findings/baseline/time/home/ny/2020-03-28.png"></td>
 </tr>
+<tr>
+<td colspan="7" style="background-color:#FFFFFF">
+  <div>
+    2020 stay at home percentage deviation from the 2019 mean
+  </div>
+<img src="media/findings/baseline/time/home/ny-key.png">
+</td>
+</tr>
 </table>
+
 
 
 
 
 <table>
 <tr>
-<th>New York Timeline</th>
+<th >New York Timeline</th>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Friday, March 6, 2020</b>
@@ -395,50 +342,29 @@ You can read the full paper [here](paper.pdf).
       <li>Typical pre-shutdown busy weekday with a large percentage of the population not at home.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-06.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+  </tr>
+  <tr>
 	<td>
     <div>
     <b>Friday, March 7, 2020</b>
       <ul>
       <li>Governor Cuomo declares a state of emergency.</li>
-      <li>No clear impact on the general population's behavior. Active weekend with a large percentage of the population not at home.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-07.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+  </tr>
+  <tr>
 	<td>
     <div>
     <b>Saturday, March 8, 2020</b>
       <ul>
-      <li>NYC issues guidlines to avoid densely packed busses, subways, and trains..</li>
-      <li>No clear impact on the general population's behavior. Active weekend with a large percentage of the population not at home.</li>
+      <li>NYC issues guidlines to avoid densely packed busses, subways, and trains.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-08.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Sunday, March 9, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-09.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Saturday, March 14, 2020</b>
@@ -446,40 +372,29 @@ You can read the full paper [here](paper.pdf).
       <li>First documented two COVID deaths in NYS.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+  </tr>
+  <tr>
 	<td>
     <div>
     <b>Sunday, March 15, 2020</b>
       <ul>
       <li>CDC recommends no gatherings of 50+ in the United States.</li>
-      <li>Slightly higher percentage of people at home than a typical weekend. An early, clear sign of changing behavior in NYC.</li>
       </ul>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
     </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Monday, March 16, 2020</b>
       <ul>
       <li>NYC public schools are closed.</li>
-      <li>Despite being a Monday large percentage of new yorkers stay home.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+  </tr>
+  <tr>
 	<td>
     <div>
     <b>Tuesday, March 17, 2020</b>
@@ -487,12 +402,9 @@ You can read the full paper [here](paper.pdf).
       <li>NYC bars and restaurants are allowed delivery only.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+  </tr>
+  <tr>
 	<td>
     <div>
     <b>Sunday, March 22, 2020</b>
@@ -500,95 +412,89 @@ You can read the full paper [here](paper.pdf).
       <li>NYS pause probram begins. All non-essentail workers are ordered to stay home.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-22.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Monday, March 23, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/ny/2020-03-23.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
 </table>
 
 
+
+
+
 <table>
 <tr>
-<th colspan="7">Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (New York)</th>
+<th>Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (New York)
+</th>
+</tr>
 <tr>
-<td colspan = 7"> Completely Home Percentage-March</td>
+<td> Completely Home Percentage-March
+</td>
 </tr>
 <tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/NY_comp_home_March.png"></img></td>
+<td><img src="media/findings/subgroups/groups/NY_comp_home_March.png"></img>
+</td>
 </tr>
 <tr>
-<td colspan = 7"> Completely Home Percentage-April</td>
+<td> Completely Home Percentage-April</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_comp_home_April.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Completely Home Percentage-July</td>
+<td> Completely Home Percentage-July</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_comp_home_July.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Completely Home Percentage-October</td>
+<td> Completely Home Percentage-October</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_comp_home_October.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Full Time Work Percentage-March</td>
+<td> Full Time Work Percentage-March</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_full_time_March.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Full Time Work Percentage-April</td>
+<td> Full Time Work Percentage-April</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_full_time_April.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Full Time Work Percentage-July</td>
+<td> Full Time Work Percentage-July</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_full_time_July.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Full Time Work Percentage-October</td>
+<td> Full Time Work Percentage-October</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_full_time_October.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Part Time Work Percentage-March</td>
+<td> Part Time Work Percentage-March</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_part_time_March.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Part Time Work Percentage-April</td>
+<td> Part Time Work Percentage-April</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_part_time_April.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Part Time Work Percentage-July</td>
+<td> Part Time Work Percentage-July</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_part_time_July.png"></img></td>
 </tr>
 <tr>
-<td colspan = 7"> Part Time Work Percentage-October</td>
+<td> Part Time Work Percentage-October</td>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td><img src="media/findings/subgroups/groups/NY_part_time_October.png"></img></td>
@@ -598,7 +504,7 @@ You can read the full paper [here](paper.pdf).
 
 <table>
 <tr>
-<th colspan="7">Los Angeles Metro Area Timeline // Thumbnails</th>
+<th colspan="7">Los Angeles Metro Area Timeline</th>
 </tr>
 <tr>
 <td colspan="7">First Week of March 2020</td>
@@ -648,7 +554,17 @@ You can read the full paper [here](paper.pdf).
 <td><img src="media/findings/baseline/time/home/la/2020-03-27.png"></td>
 <td><img src="media/findings/baseline/time/home/la/2020-03-28.png"></td>
 </tr>
+<tr>
+<td colspan="7" style="background-color:#FFFFFF">
+  <div>
+    2020 stay at home percentage deviation from the 2019 mean
+  </div>
+<img src="media/findings/baseline/time/home/la-key.png">
+</td>
+</tr>
 </table>
+
+
 
 
 
@@ -657,7 +573,7 @@ You can read the full paper [here](paper.pdf).
 <tr>
 <th>Los Angeles Timeline</th>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Wednesday, March 11, 2020</b>
@@ -665,52 +581,9 @@ You can read the full paper [here](paper.pdf).
       <li>First person to die of the coronavirus in Los Angeles County is reported.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-11.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Thursday, March 12, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-12.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Friday, March 13, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-13.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Saturday, March 14, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-14.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Sunday, March 15, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-15.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Monday, March 16, 2020</b>
@@ -719,32 +592,9 @@ You can read the full paper [here](paper.pdf).
       <li>LAUSD schools close.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-16.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Tuesday, March 17, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-17.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td>
-    <div>
-    <b>Wednesday, March 18, 2020</b>
-    </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
-  </td>
-</tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Thursday, March 19, 2020</b>
@@ -752,12 +602,9 @@ You can read the full paper [here](paper.pdf).
       <li>California Governor Gavin Newsome issues a statewide stay at home order.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-19.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Friday, March 20, 2020</b>
@@ -765,12 +612,9 @@ You can read the full paper [here](paper.pdf).
       <li>Mayor Eric Garcetti issues a safer at home health order stopping non-essential activities outside of residences in response to COVID-19.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-20.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr>
 	<td>
     <div>
     <b>Sunday, March 22, 2020</b>
@@ -779,91 +623,40 @@ You can read the full paper [here](paper.pdf).
       <li>The National Guard deployed in California.</li>
       </ul>
     </div>
-    <div>
-    <img src="media/findings/baseline/time/home/la/2020-03-18.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
   </td>
 </tr>
 </table>
 
 
-### Subgroup Trends
-
-<strong style="color: red;">Graphs of subgroup Trends Here.</strong>
-
-<ul >
-<li>Increase of at home behavior line graph.</li>
-<li>Decrease of at full time work behavior line graph.</li>
-<li>Decrease of at part time work behavior line graph.</li>
-<li>Decrease of distance traveled behavior line graph.</li>
-<li>Increase of at home behavior timeline.</li>
-<li>Decrease of at full time work behavior timeline.</li>
-<li>Decrease of at part time work behavior timeline.</li>
-<li>Decrease of distance traveled behavior timeline.</li>
-</ul>
-
-
-
-
-<table>
-<tr>
-<th colspan="3">Mean percentage staying home grouped by percentage of the population below the poverty line</th>
-</tr>
-<tr style="background-color:#FFFFFF">
-	<td><img src="media/findings/subgroups/phome/ny.png"><img src="media/findings/subgroups/phome/ny-all.png"></td>
-  <td><img src="media/findings/subgroups/phome/la.png"><img src="media/findings/subgroups/phome/la-all.png"></td>
-  <td><img src="media/findings/subgroups/phome/ch.png"><img src="media/findings/subgroups/phome/ch-all.png"></td>
-</tr>
-  <tr>
-	<td><b>New York City</b></td>
-  <td><b>Los Angeles</b></td>
-  <td><b>Chicago</b></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<th> Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
-</tr>
-<tr style="background-color:#FFFFFF">
-<td>
-    <div>
-    	<b>Chicago</b>
-    </div>
-    <div>
-     <img src="media/findings/baseline/time/home/ch/ch_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
- </td>
- <tr style="background-color:#FFFFFF">
-<td >
-    <div>
-    	<b>New York</b>
-    </div>
-    <div>
-     <img src="media/findings/baseline/time/home/ny/ny_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
- </td>
- </tr>
- <tr style="background-color:#FFFFFF">
-<td >
-    <div>
-    	<b>Los Angeles</b>
-    </div>
-    <div>
-     <img src="media/findings/baseline/time/home/la/la_time_wealthy_poor_yearly.png" style="display:block; margin-left: auto; margin-right: auto;">
-    </div>
- </td>
- </tr>
- </tr>
- </table>
 
 
 ### Data Reliability
 
-<strong style="color: red;">Graphs pointing to bias in the data.</strong>
-<ul>
-<li>What is the sample size in each CBG? How can we visualize this? Is the sample size larger in CBGs where there are wealthier people? How can we visualize this?</li>
-</ul>
+
+
+<table>
+  <tr><th colspan='3'>Mean percentage of the population included in the sample</th></tr>
+  <tr>
+    <td><img src="media/findings/bias/sample/pov/ch.png"></td>
+  	<td><img src="media/findings/bias/sample/pov/la.png"></td>
+  	<td><img src="media/findings/bias/sample/pov/ny.png"></td>
+  </tr>
+  <tr>
+    <td><img src="media/findings/bias/sample/pov/ch-all.png"></td>
+  	<td><img src="media/findings/bias/sample/pov/la-all.png"></td>
+  	<td><img src="media/findings/bias/sample/pov/ny-all.png"></td>
+  </tr>
+  <tr>
+    <td>Chicago</td>
+  	<td>Los Angeles Metro Area</td>
+  	<td>New York Metro Area</td>
+  </tr>
+</table>
+
+
+
+
+
 
 
 ## Findings (If we have time) 
@@ -999,6 +792,12 @@ There are a series of notebooks used to extract, clean and visualize the data. T
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) [ Analyse NY Compare Full Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Full%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
 *  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb
 ) [ Analyse NY Compare Part Time Work Percentage For Wealthiest And Poorest.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analyse%20NY%20Compare%20Part%20Time%20Work%20Percentage%20For%20Wealthiest%20And%20Poorest.ipynb) 
+*  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Sampling%20Bias.ipynb
+) [Analysis CH Sampling Bias.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20CH%20Sampling%20Bias.ipynb) 
+*  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Sampling%20Bias.ipynb
+) [Analysis LA Sampling Bias.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20LA%20Sampling%20Bias.ipynb) 
+*  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Sampling%20Bias.ipynb
+) [Analysis NY Sampling Bias.ipynb](https://github.com/chouhandiksha/bigdataproject/blob/main/notebooks/Analysis%20NY%20Sampling%20Bias.ipynb) 
 
 
 
