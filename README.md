@@ -1,5 +1,6 @@
 
 
+
 # Visualizing the Mobility Gradient Across Different Demographic Groups
 
 
@@ -238,27 +239,84 @@ During the month of March we can see the majority of Census Group Blocks go from
 
 <table>
 <tr>
-<th>Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Chicago)</th>
-<tr>
-<td> Completely Home Percentage</td>
-</tr>
-<tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/CH_comp_home.png"></img></td>
+<th>Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Chicago)
+</th>
 </tr>
 <tr>
-<td> Full Time Work Percentage</td>
+<td> Completely Home Percentage-March
+</td>
 </tr>
 <tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/CH_full_time.png"></img></td>
+<td><img src="media/findings/subgroups/groups/CH_comp_home_March.png"></img>
+</td>
 </tr>
 <tr>
-<td> Part Time Work Percentage</td>
+<td> Completely Home Percentage-April</td>
 </tr>
 <tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/CH_part_time.png"></img></td>
+<td><img src="media/findings/subgroups/groups/CH_comp_home_April.png"></img></td>
+</tr>
+<tr>
+<td> Completely Home Percentage-June</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_comp_home_June.png"></img></td>
+</tr>
+<tr>
+<td> Completely Home Percentage-September</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_comp_home_September.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_full_time_March.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-April</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_full_time_April.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-June</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_full_time_June.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-September</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_full_time_September.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_part_time_March.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-April</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/CH_part_time_April.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-June</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/Ch_part_time_June.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-September</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/Ch_part_time_September.png"></img></td>
 </tr>
 </table>
-
 
 #### New York Metro Area
 
