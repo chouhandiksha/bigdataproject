@@ -685,6 +685,86 @@ During the month of March we can see the majority of Census Group Blocks go from
 </tr>
 </table>
 
+<table>
+<tr>
+<th>Comparison of mobility between the wealthiest and poorest groups for 2020 for specific timelines (Los Angeles)
+</th>
+</tr>
+<tr>
+<td> Completely Home Percentage-March
+</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_comp_home_March.png"></img>
+</td>
+</tr>
+<tr>
+<td> Completely Home Percentage-August</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_comp_home_August.png"></img></td>
+</tr>
+<tr>
+<td> Completely Home Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_comp_home_October.png"></img></td>
+</tr>
+<tr>
+<td> Completely Home Percentage-December</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_comp_home_December.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_full_time_March.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-August</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_full_time_August.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_full_time_October.png"></img></td>
+</tr>
+<tr>
+<td> Full Time Work Percentage-December</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_full_time_December.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-March</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_part_time_March.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-August</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_part_time_August.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-October</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_part_time_October.png"></img></td>
+</tr>
+<tr>
+<td> Part Time Work Percentage-December</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td><img src="media/findings/subgroups/groups/LA_part_time_December.png"></img></td>
+</tr>
+</table>
 
 
 
@@ -1175,6 +1255,7 @@ social-distancing-metrics
 [5] The New York Times. 2021. Coronavirus (COVID-19) Data in the United States.
 
 https://github.com/nytimes/covid-19-data
+
 
 
 
