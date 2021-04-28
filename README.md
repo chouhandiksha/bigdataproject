@@ -308,13 +308,13 @@ During the month of March we can see the majority of Census Group Blocks go from
 <td> Part Time Work Percentage-June</td>
 </tr>
 <tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/Ch_part_time_June.png"></img></td>
+<td><img src="media/findings/subgroups/groups/CH_part_time_June.png"></img></td>
 </tr>
 <tr>
 <td> Part Time Work Percentage-September</td>
 </tr>
 <tr style="background-color:#FFFFFF">
-<td><img src="media/findings/subgroups/groups/Ch_part_time_September.png"></img></td>
+<td><img src="media/findings/subgroups/groups/CH_part_time_September.png"></img></td>
 </tr>
 </table>
 
