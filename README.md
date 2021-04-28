@@ -32,16 +32,16 @@ We see an unmistakable increase in the percentage of individuals staying at home
 
 
 
-<table>
+<table style="background-color:#FFFFFF !important">
 <tr>
 <th colspan="3">2020 Rolling 10 Day Average</th>
 </tr>
-<tr style="background-color:#FFFFFF">
-	<td style="background-color:#FFFFFF"><img src="media/findings/baseline/homework/ny.png"></td>
-  <td style="background-color:#FFFFFF"><img src="media/findings/baseline/homework/la.png"></td>
-  <td style="background-color:#FFFFFF"><img src="media/findings/baseline/homework/ch.png"></td>
+<tr>
+	<td><img src="media/findings/baseline/homework/ny.png"></td>
+  <td><img src="media/findings/baseline/homework/la.png"></td>
+  <td><img src="media/findings/baseline/homework/ch.png"></td>
 </tr>
-<tr style="background-color:#FFFFFF">
+<tr >
 	<td><b>New York City</b></td>
   <td><b>Los Angeles</b></td>
   <td><b>Chicago</b></td>
