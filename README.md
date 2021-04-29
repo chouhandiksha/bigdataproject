@@ -122,6 +122,83 @@ We see an unmistakable increase in the percentage of individuals staying at home
  </td>
  </tr>
  </table>
+ 
+
+
+<table>
+<tr>
+<th> Full-time work behavior comparison between the wealthiest and poorest groups for 2020 </th>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
+    <div>
+    	<b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/time/ch_full.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/time/ny_full.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/time/la_full.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </table>
+ 
+
+
+<table>
+<tr>
+<th> Part-time work behavior comparison between the wealthiest and poorest groups for 2020 </th>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
+    <div>
+    	<b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/time/ch_part.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/time/ny_part.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/time/la_part.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </table>
+ 
 
 #### Chicago
 
