@@ -89,7 +89,7 @@ We see an unmistakable increase in the percentage of individuals staying at home
 
 <table>
 <tr>
-<th> Comparison of mobility between the wealthiest and poorest groups for 2020 </th>
+<th> Comparison of mobility between the wealthiest and poorest groups for 2020-Completely Home Percentage </th>
 </tr>
 <tr style="background-color:#FFFFFF">
 <td>
@@ -199,6 +199,81 @@ We see an unmistakable increase in the percentage of individuals staying at home
  </tr>
  </table>
  
+
+<table>
+<tr>
+<th> Comparison of mobility between the wealthiest and poorest groups for 2020 - Full Time Work Percentage</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
+    <div>
+    	<b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/CHfulltimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/NYfulltimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/LAfulltimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </table>
+
+<table>
+<tr>
+<th> Comparison of mobility between the wealthiest and poorest groups for 2020 - Part Time Work Percentage</th>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
+    <div>
+    	<b>Chicago</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/CHparttimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>New York</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/NYparttimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ <tr style="background-color:#FFFFFF">
+<td >
+    <div>
+    	<b>Los Angeles</b>
+    </div>
+    <div>
+     <img src="media/findings/fullYearVisualisations/LAparttimework.png" style="display:block; margin-left: auto; margin-right: auto;">
+    </div>
+ </td>
+ </tr>
+ </table>
+
+
+
 
 #### Chicago
 
