@@ -11,8 +11,45 @@
 
 **TAs:** Rupesh Bagwe and Christina Ye
 
-
-
+  * [Abstract](#abstract)
+  * [Findings](#findings)
+    + [Basline Trends](#basline-trends)
+      - [Chicago](#chicago)
+      - [New York Metro Area](#new-york-metro-area)
+    + [Data Reliability](#data-reliability)
+  * [Computational Reproducibility Instructions](#computational-reproducibility-instructions)
+    + [Step 1 // Get the Data](#step-1----get-the-data)
+    + [Step 2 // Extract the Needed Rows And Columns](#step-2----extract-the-needed-rows-and-columns)
+    + [Step 3 // Data Cleaning and Quality Verification](#step-3----data-cleaning-and-quality-verification)
+  * [Notebooks](#notebooks)
+      - [New York Times COVID-19 Data // Extraction and Cleaning:](#new-york-times-covid-19-data----extraction-and-cleaning-)
+      - [SafeGraph Census Data // Extraction and Cleaning:](#safegraph-census-data----extraction-and-cleaning-)
+      - [SafeGraph Social Distancing Dataset // Extraction (Using Pandas):](#safegraph-social-distancing-dataset----extraction--using-pandas--)
+      - [SafeGraph Social Distancing Dataset // Extraction (Using Spark):](#safegraph-social-distancing-dataset----extraction--using-spark--)
+      - [SafeGraph Social Distancing Dataset // Cleaning:](#safegraph-social-distancing-dataset----cleaning-)
+      - [SafeGraph Social Distancing Dataset // Analysis:](#safegraph-social-distancing-dataset----analysis-)
+  * [Introduction](#introduction)
+  * [Related Work](#related-work)
+  * [Data Sources](#data-sources)
+  * [Data Acquisition](#data-acquisition)
+    + [New York Times COVID-19 Data](#new-york-times-covid-19-data)
+    + [SafeGraph Social Distancing Metrics](#safegraph-social-distancing-metrics)
+    + [SafeGraph Census Block Group Data](#safegraph-census-block-group-data)
+  * [Data Extraction](#data-extraction)
+    + [New York Times COVID-19 Data](#new-york-times-covid-19-data-1)
+    + [SafeGraph Census Block Group Data](#safegraph-census-block-group-data-1)
+    + [SafeGraph Social Distancing Metrics](#safegraph-social-distancing-metrics-1)
+  * [Data Cleaning](#data-cleaning)
+    + [New York Times COVID-19 Data](#new-york-times-covid-19-data-2)
+    + [SafeGraph Census Block Group Data](#safegraph-census-block-group-data-2)
+      - [Chicago Metropolitan Area Demographic Data](#chicago-metropolitan-area-demographic-data)
+      - [Los Angeles Metropolitan Area Demographic Data](#los-angeles-metropolitan-area-demographic-data)
+      - [New York Metropolitan Area Demographic Data](#new-york-metropolitan-area-demographic-data)
+    + [SafeGraph Social Distancing Metrics](#safegraph-social-distancing-metrics-2)
+      - [Chicago Metropolitan Area Social Distancing](#chicago-metropolitan-area-social-distancing)
+      - [Los Angeles Metropolitan Area Social Distancing](#los-angeles-metropolitan-area-social-distancing)
+      - [New York Metropolitan Area Social Distancing](#new-york-metropolitan-area-social-distancing)
+  * [Citations and Bibliographies](#citations-and-bibliographies)
 
 ## Abstract
 
