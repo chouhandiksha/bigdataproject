@@ -16,6 +16,7 @@
     + [Basline Trends](#basline-trends)
       - [Chicago](#chicago)
       - [New York Metro Area](#new-york-metro-area)
+      - [Los Angeles](#los-angeles)
     + [Data Reliability](#data-reliability)
   * [Computational Reproducibility Instructions](#computational-reproducibility-instructions)
     + [Step 1 // Get the Data](#step-1----get-the-data)
@@ -825,6 +826,7 @@ During the month of March we can see the majority of Census Group Blocks go from
 </tr>
 </table>
 
+#### Los Angeles
 
 
 <table>
