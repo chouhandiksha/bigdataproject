@@ -22,7 +22,7 @@ You can read the full paper [here](paper.pdf).
 
 
 
-## Findings (Priorities) 
+## Findings
 
 
 
@@ -125,7 +125,7 @@ We see an unmistakable increase in the percentage of individuals staying at home
  
 
 
- 
+
 
 <table>
 <tr>
@@ -955,35 +955,6 @@ During the month of March we can see the majority of Census Group Blocks go from
 </table>
 
 
-
-
-
-
-
-## Findings (If we have time) 
-
-### Baseline Trends
-
-<strong style="color: red;">National Graphs of General Trends Here. Group by county. Visualize coorelation between mobility and infections/deaths.</strong>
-
-### Subgroup Trends
-
-<strong style="color: red;">National Graphs of subgroup Trends Here.</strong>
-
-<strong style="color: red;">Analyze minority group trends in relation to the average trends.</strong>
-
-### Data Reliability
-
-<strong style="color: red;">Graphs pointing to bias in the data.</strong>
-<ul>
-<li>Compare cell phone mobility data to subway and bus ridership data. Do the trends match up?</li>
-<li>Are there other ways to assess bias in the mobile data?</li>
-</ul>
-<strong style="color: red;">Get baseline average from 2019 from only months being compared instead of all 2019. Maybe check how different the two mean values are. Maybe check if the patters are more or less clear using this value. For instance is mobility higher or lower in March than from all of 2019?</strong>
-
-
-
-
 ## Computational Reproducibility Instructions
 
 ### Step 1 // Get the Data
@@ -1009,15 +980,6 @@ Once you have extracted the needed data we are ready to verifiy the data is clea
 For simplicity sake, the NYTimes COVID cleaning steps are in a single notebook with the extraction steps [here](####new-york-times-covid-19-data-//-extraction-and-cleaning:). Also, for simplicity the SafeGraph Census data cleaning notebooks are also combined with the extraction notebooks [here](####safegraph-census-data-//-extraction-and-cleaning:). 
 
 Finally, you can find all of the SafeGraph Social Distancing notebooks [here](####safegraph-social-distancing-dataset-//-cleaning:). The SafeGraph Social Distancing set cleaning notebooks are not combined with the cleaning notebooks due to the large size of the dataset. So be sure to run the SafeGraph Social Distancing extraction notebooks from the above step 2 first. The SafeGraph Social Distancing Cleaning notebooks are broken up by city and year. 
-
-
-
-## Notebooks to Clean
-
-* ??? Notebooks for all graphics missing from README ???
-
-
-
 
 
 ## Notebooks
