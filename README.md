@@ -796,6 +796,7 @@ During the month of March we can see the majority of Census Group Blocks go from
 </tr>
 </table>
 
+#### Los Angeles
 
 
 <table>
@@ -825,8 +826,6 @@ During the month of March we can see the majority of Census Group Blocks go from
 </td>
 </tr>
 </table>
-
-#### Los Angeles
 
 
 <table>
